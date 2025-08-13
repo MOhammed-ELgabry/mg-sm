@@ -282,11 +282,42 @@ header {
 .sec-5{
     background-image: url('./img/background0deb95780006ded47c0b24ebfd6a09a0.jpeg');
     background-repeat: no-repeat;
-    
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
    width: 100%;
    height: auto;
    margin-top: 10rem;
-   
+   .card{
+    background-color: rgba(242, 242, 242,.4);
+   }
+   .card-body{
+    width:365 px;
+
+    max-width: 80%;
+    height: 405px;
+    min-height: auto;
+    padding: 50px 30px 40px 30px;
+    
+   }
+   h2{
+    font-size: 96px;
+    font-family: Merriweather, serif;
+    color: #346473;
+   }
+   h3{
+    font-size: 24px;
+    font-family: Merriweather, serif ;
+  
+   }
+   a{
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+      color: black;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: blue;
+    }
 }
